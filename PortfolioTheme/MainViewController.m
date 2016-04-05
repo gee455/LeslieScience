@@ -49,6 +49,8 @@
 #import "BKTPopin2ControllerViewController_map16.h"
 #import "BKTPopin2ControllerViewController_map17.h"
 #import "BKTPopin2ControllerViewController_map18.h"
+#import "BKTPopin2ControllerViewController_map19.h"
+#import "BKTPopin2ControllerViewController_map20.h"
 
 
 #import <QuartzCore/QuartzCore.h>
@@ -186,10 +188,20 @@
     //Pin #1 Leslie Center (L)
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setBackgroundImage:[UIImage imageNamed:@"pinL"] forState:UIControlStateNormal];
-    button.frame = CGRectMake(487.0, 379.0, 30.0, 55.0);
+    button.frame = CGRectMake(440.0, 410.0, 30.0, 55.0);
     [button addTarget:self action:@selector(buttonPopin:)forControlEvents:UIControlEventTouchUpInside];
     button.tag = 0;
     [self.imageView addSubview: button];
+    
+    //Nature House (N)
+    UIButton *button18 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button18 setBackgroundImage:[UIImage imageNamed:@"pinN"] forState:UIControlStateNormal];
+    // button.frame = CGRectMake(487.0, 379.0, 30.0, 55.0);
+    button18.frame = CGRectMake(487.0, 379.0, 30.0, 55.0);
+    [button18 addTarget:self action:@selector(buttonPopin:)forControlEvents:UIControlEventTouchUpInside];
+    button18.tag = 30;
+    [self.imageView addSubview: button18];
+    
     
     //Pin #2 Critter House (C)
 //    UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -209,7 +221,7 @@
     
     //Pin #4 Post 1
     UIButton *button3 = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button3 setBackgroundImage:[UIImage imageNamed:@"pin1"] forState:UIControlStateNormal];
+    [button3 setBackgroundImage:[UIImage imageNamed:@"pin1blue"] forState:UIControlStateNormal];
     button3.frame = CGRectMake(565.0, 327.0, 30.0, 55.0);
     [button3 addTarget:self action:@selector(buttonPopin:)forControlEvents:UIControlEventTouchUpInside];
     button3.tag = 3;
@@ -225,7 +237,7 @@
     
     //Pin #6 Post 3
     UIButton *button5 = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button5 setBackgroundImage:[UIImage imageNamed:@"pin3"] forState:UIControlStateNormal];
+    [button5 setBackgroundImage:[UIImage imageNamed:@"pin3blue"] forState:UIControlStateNormal];
     button5.frame = CGRectMake(585.0, 299.0, 30.0, 55.0);
     [button5 addTarget:self action:@selector(buttonPopin:)forControlEvents:UIControlEventTouchUpInside];
     button5.tag = 5;
@@ -298,7 +310,8 @@
     //Pin #14 S
     UIButton *button12 = [UIButton buttonWithType:UIButtonTypeCustom];
     [button12 setBackgroundImage:[UIImage imageNamed:@"pinS"] forState:UIControlStateNormal];
-    button12.frame = CGRectMake(602.0, 395.0, 30.0, 55.0);
+//    button12.frame = CGRectMake(602.0, 395.0, 30.0, 55.0);
+    button12.frame = CGRectMake(575.0, 410.0, 30.0, 55.0);
     [button12 addTarget:self action:@selector(buttonPopin:)forControlEvents:UIControlEventTouchUpInside];
     button12.tag = 12;
     [self.imageView addSubview: button12];
@@ -322,7 +335,8 @@
     //Pin #17 T
     UIButton *button15 = [UIButton buttonWithType:UIButtonTypeCustom];
     [button15 setBackgroundImage:[UIImage imageNamed:@"pinT"] forState:UIControlStateNormal];
-    button15.frame = CGRectMake(575.0, 410.0, 30.0, 55.0);
+//    button15.frame = CGRectMake(575.0, 410.0, 30.0, 55.0);
+    button15.frame = CGRectMake(602.0, 395.0, 30.0, 55.0);
     [button15 addTarget:self action:@selector(buttonPopin:)forControlEvents:UIControlEventTouchUpInside];
     button15.tag = 15;
     [self.imageView addSubview: button15];
@@ -633,6 +647,25 @@
         NSLog(@"C button pressed !");
         // deal with downButton event here ..
         BKTPopin2ControllerViewController_map18 *popinA = [[BKTPopin2ControllerViewController_map18 alloc] init];
+        
+        //Disable auto dismiss and removed semi-transparent background
+        [popinA setPopinOptions:BKTPopinDisableAutoDismiss|BKTPopinDimmingViewStyleNone];
+        [popinA setPopinOptions:BKTPopinDisableParallaxEffect];
+        
+        //Configure transition direction
+        [popinA setPopinTransitionDirection:BKTPopinTransitionDirectionTop];
+        [self presentPopinController:popinA animated:YES completion:^{
+            NSLog(@"Popin C presented !");
+        }];
+        
+    }
+    
+    //Nature House
+    if (tid == 30) {
+        
+        NSLog(@"C button pressed !");
+        // deal with downButton event here ..
+        BKTPopin2ControllerViewController_map19 *popinA = [[BKTPopin2ControllerViewController_map19 alloc] init];
         
         //Disable auto dismiss and removed semi-transparent background
         [popinA setPopinOptions:BKTPopinDisableAutoDismiss|BKTPopinDimmingViewStyleNone];

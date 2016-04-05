@@ -20,6 +20,20 @@
 		0C700E261A0EFD2E00526D7F /* crossHair.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C700E251A0EFD2E00526D7F /* crossHair.png */; };
 		0C700E281A0EFF7500526D7F /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C700E271A0EFF7500526D7F /* search.png */; };
 		0C700E2A1A0F03AC00526D7F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C700E291A0F03AC00526D7F /* map.png */; };
+		0CC039B41CB446F800DFC849 /* raptor enclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039B01CB446F800DFC849 /* raptor enclosure.png */; };
+		0CC039B51CB446F800DFC849 /* raptor enclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039B11CB446F800DFC849 /* raptor enclosure@2x.png */; };
+		0CC039B61CB446F800DFC849 /* naturehouseNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039B21CB446F800DFC849 /* naturehouseNew.png */; };
+		0CC039B71CB446F800DFC849 /* naturehouseNew@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039B31CB446F800DFC849 /* naturehouseNew@2x.png */; };
+		0CC039BB1CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC039B91CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.m */; };
+		0CC039BC1CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039BA1CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.xib */; };
+		0CC039BF1CB447EE00DFC849 /* natureHouseBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039BD1CB447EE00DFC849 /* natureHouseBig.png */; };
+		0CC039C01CB447EE00DFC849 /* natureHouseBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039BE1CB447EE00DFC849 /* natureHouseBig@2x.png */; };
+		0CC039C41CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC039C21CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.m */; };
+		0CC039C51CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039C31CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.xib */; };
+		0CC039CA1CB4556A00DFC849 /* pin3blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039C61CB4556A00DFC849 /* pin3blue.png */; };
+		0CC039CB1CB4556A00DFC849 /* pin3blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039C71CB4556A00DFC849 /* pin3blue@2x.png */; };
+		0CC039CC1CB4556A00DFC849 /* pin1blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039C81CB4556A00DFC849 /* pin1blue.png */; };
+		0CC039CD1CB4556A00DFC849 /* pin1blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039C91CB4556A00DFC849 /* pin1blue@2x.png */; };
 		0CC45E9F1A0DCFCB00CD4618 /* MYBlurIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC45E9C1A0DCFCB00CD4618 /* MYBlurIntroductionView.m */; };
 		0CC45EA01A0DCFCB00CD4618 /* MYIntroductionPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC45E9E1A0DCFCB00CD4618 /* MYIntroductionPanel.m */; };
 		0CC45EC21A0DD08B00CD4618 /* TestHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC45EC01A0DD08B00CD4618 /* TestHeader.xib */; };
@@ -658,6 +672,22 @@
 		0C700E251A0EFD2E00526D7F /* crossHair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crossHair.png; sourceTree = "<group>"; };
 		0C700E271A0EFF7500526D7F /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		0C700E291A0F03AC00526D7F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		0CC039B01CB446F800DFC849 /* raptor enclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raptor enclosure.png"; sourceTree = "<group>"; };
+		0CC039B11CB446F800DFC849 /* raptor enclosure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raptor enclosure@2x.png"; sourceTree = "<group>"; };
+		0CC039B21CB446F800DFC849 /* naturehouseNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naturehouseNew.png; sourceTree = "<group>"; };
+		0CC039B31CB446F800DFC849 /* naturehouseNew@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "naturehouseNew@2x.png"; sourceTree = "<group>"; };
+		0CC039B81CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BKTPopin2ControllerViewController_map19.h; path = "Popin Content/BKTPopin2ControllerViewController_map19.h"; sourceTree = "<group>"; };
+		0CC039B91CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BKTPopin2ControllerViewController_map19.m; path = "Popin Content/BKTPopin2ControllerViewController_map19.m"; sourceTree = "<group>"; };
+		0CC039BA1CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BKTPopin2ControllerViewController_map19.xib; path = "Popin Content/BKTPopin2ControllerViewController_map19.xib"; sourceTree = "<group>"; };
+		0CC039BD1CB447EE00DFC849 /* natureHouseBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natureHouseBig.png; sourceTree = "<group>"; };
+		0CC039BE1CB447EE00DFC849 /* natureHouseBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "natureHouseBig@2x.png"; sourceTree = "<group>"; };
+		0CC039C11CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BKTPopin2ControllerViewController_map20.h; path = "Popin Content/BKTPopin2ControllerViewController_map20.h"; sourceTree = "<group>"; };
+		0CC039C21CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BKTPopin2ControllerViewController_map20.m; path = "Popin Content/BKTPopin2ControllerViewController_map20.m"; sourceTree = "<group>"; };
+		0CC039C31CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BKTPopin2ControllerViewController_map20.xib; path = "Popin Content/BKTPopin2ControllerViewController_map20.xib"; sourceTree = "<group>"; };
+		0CC039C61CB4556A00DFC849 /* pin3blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin3blue.png; sourceTree = "<group>"; };
+		0CC039C71CB4556A00DFC849 /* pin3blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin3blue@2x.png"; sourceTree = "<group>"; };
+		0CC039C81CB4556A00DFC849 /* pin1blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin1blue.png; sourceTree = "<group>"; };
+		0CC039C91CB4556A00DFC849 /* pin1blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin1blue@2x.png"; sourceTree = "<group>"; };
 		0CC45E9B1A0DCFCB00CD4618 /* MYBlurIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBlurIntroductionView.h; sourceTree = "<group>"; };
 		0CC45E9C1A0DCFCB00CD4618 /* MYBlurIntroductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBlurIntroductionView.m; sourceTree = "<group>"; };
 		0CC45E9D1A0DCFCB00CD4618 /* MYIntroductionPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYIntroductionPanel.h; sourceTree = "<group>"; };
@@ -2295,6 +2325,16 @@
 		9B4460D41C910A0B00085567 /* Pins */ = {
 			isa = PBXGroup;
 			children = (
+				0CC039BD1CB447EE00DFC849 /* natureHouseBig.png */,
+				0CC039BE1CB447EE00DFC849 /* natureHouseBig@2x.png */,
+				0CC039B01CB446F800DFC849 /* raptor enclosure.png */,
+				0CC039B11CB446F800DFC849 /* raptor enclosure@2x.png */,
+				0CC039B21CB446F800DFC849 /* naturehouseNew.png */,
+				0CC039B31CB446F800DFC849 /* naturehouseNew@2x.png */,
+				0CC039C61CB4556A00DFC849 /* pin3blue.png */,
+				0CC039C71CB4556A00DFC849 /* pin3blue@2x.png */,
+				0CC039C81CB4556A00DFC849 /* pin1blue.png */,
+				0CC039C91CB4556A00DFC849 /* pin1blue@2x.png */,
 				9B4461211C94C39600085567 /* pinFlower.png */,
 				9B4461221C94C39600085567 /* pinFlower@2x.png */,
 				9B4461231C94C39600085567 /* pinStar.png */,
@@ -2705,6 +2745,12 @@
 				9B4461291C94CF5E00085567 /* BKTPopin2ControllerViewController_map18.h */,
 				9B44612A1C94CF5E00085567 /* BKTPopin2ControllerViewController_map18.m */,
 				9B44612B1C94CF5E00085567 /* BKTPopin2ControllerViewController_map18.xib */,
+				0CC039B81CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.h */,
+				0CC039B91CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.m */,
+				0CC039BA1CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.xib */,
+				0CC039C11CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.h */,
+				0CC039C21CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.m */,
+				0CC039C31CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.xib */,
 				9BA8E5BC1A6875E00015152B /* BKTPopin2ControllerViewController_feature1.h */,
 				9BA8E5BD1A6875E00015152B /* BKTPopin2ControllerViewController_feature1.m */,
 				9BA8E5BE1A6875E00015152B /* BKTPopin2ControllerViewController_feature1.xib */,
@@ -2972,9 +3018,11 @@
 				9B4461CA1C9633EF00085567 /* eventsNew.png in Resources */,
 				134B26D519C862CD0056D4F1 /* Pinterest.png in Resources */,
 				9B4BCB6C1A596C5900B61094 /* QRowl.png in Resources */,
+				0CC039BF1CB447EE00DFC849 /* natureHouseBig.png in Resources */,
 				9B4461181C910DB900085567 /* pinC@2x.png in Resources */,
 				13E40F9C19E3E43300B95175 /* icon_100x100.png in Resources */,
 				9BCB60FA1A57838E00119235 /* nature4.png in Resources */,
+				0CC039CD1CB4556A00DFC849 /* pin1blue@2x.png in Resources */,
 				9B4460C51C9103EE00085567 /* post6map@2x.png in Resources */,
 				9B4461C41C9632F000085567 /* search1.png in Resources */,
 				134BAB0319ED0CE80063976B /* galleryBackground.jpg in Resources */,
@@ -3012,7 +3060,9 @@
 				9B4461061C910DB900085567 /* pin3@2x.png in Resources */,
 				9B4460C31C9103EE00085567 /* post8map@2x.png in Resources */,
 				9B4BCB691A596C5900B61094 /* QReagle@2x.png in Resources */,
+				0CC039C51CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.xib in Resources */,
 				134B26DB19C867710056D4F1 /* testet2.png in Resources */,
+				0CC039BC1CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.xib in Resources */,
 				9BCB60F61A57838E00119235 /* nature2.png in Resources */,
 				9B4460C21C9103EE00085567 /* post8map.png in Resources */,
 				1326395919B5BFF8009159B7 /* vg_cta.png in Resources */,
@@ -3046,6 +3096,7 @@
 				9B44614C1C95F37C00085567 /* NorthernCardinal@3x.png in Resources */,
 				13E40FA119E3E43300B95175 /* icon_152x152.png in Resources */,
 				9B57AFDE1A683A82006B281D /* owl.wav in Resources */,
+				0CC039B51CB446F800DFC849 /* raptor enclosure@2x.png in Resources */,
 				0CC45EF31A0DD9E200CD4618 /* homescreen.png in Resources */,
 				9B4461881C9612DD00085567 /* birdDroppings@3x.png in Resources */,
 				9B445FF01C8FBB6F00085567 /* post1@2x.png in Resources */,
@@ -3102,6 +3153,7 @@
 				9B4461711C960FF100085567 /* spring4.png in Resources */,
 				9B44609B1C90F68100085567 /* BKTPopin2ControllerViewController_map5.xib in Resources */,
 				9BCB60FB1A57838E00119235 /* nature4@2x.png in Resources */,
+				0CC039C01CB447EE00DFC849 /* natureHouseBig@2x.png in Resources */,
 				9B44614A1C95F37C00085567 /* WildGeranium@2x.png in Resources */,
 				0CC45EF01A0DD92B00CD4618 /* Intro_Screen3.png in Resources */,
 				134B26DE19C867710056D4F1 /* testet3.png in Resources */,
@@ -3134,6 +3186,8 @@
 				9B445FE81C8FBB6F00085567 /* critterHouse@2x.png in Resources */,
 				9B4460581C90F45300085567 /* smell.png in Resources */,
 				9B445FFF1C8FBB6F00085567 /* post13.png in Resources */,
+				0CC039B71CB446F800DFC849 /* naturehouseNew@2x.png in Resources */,
+				0CC039CC1CB4556A00DFC849 /* pin1blue.png in Resources */,
 				9B57B0011A684A36006B281D /* QRanswer3@2x.png in Resources */,
 				134BAB0B19ED3A9E0063976B /* play-button-png.png in Resources */,
 				132992ED19C96D8700070A88 /* aaaaa.jpg in Resources */,
@@ -3152,6 +3206,7 @@
 				9B4461BC1C96169100085567 /* AnimalTracks2.png in Resources */,
 				9BCB61081A5783B600119235 /* BKTPopin2ControllerViewController_nature3.xib in Resources */,
 				9B57AFE81A684099006B281D /* chorusfrog.wav in Resources */,
+				0CC039B61CB446F800DFC849 /* naturehouseNew.png in Resources */,
 				9BBC26751B55E10800CA10FD /* About.mp4 in Resources */,
 				9B4461491C95F37C00085567 /* Caterpillar@3x.png in Resources */,
 				9B4461281C94C39600085567 /* pinStar@2x.png in Resources */,
@@ -3197,6 +3252,7 @@
 				139500C119B49DB800D0E151 /* logoExample.jpg in Resources */,
 				9B4461191C910DB900085567 /* pin9.png in Resources */,
 				9BCB61351A57960200119235 /* critter2.png in Resources */,
+				0CC039CA1CB4556A00DFC849 /* pin3blue.png in Resources */,
 				9B445FE71C8FBB6F00085567 /* critterHouse.png in Resources */,
 				9B4461781C960FF100085567 /* spring1@2x.png in Resources */,
 				9B4460541C90F45300085567 /* Trailhead.png in Resources */,
@@ -3220,6 +3276,7 @@
 				132992EF19C96DA500070A88 /* bbbbb.jpg in Resources */,
 				13DE96BA19FFC8BE007D67AC /* maps.png in Resources */,
 				9B4460651C90F45300085567 /* blackpond.png in Resources */,
+				0CC039CB1CB4556A00DFC849 /* pin3blue@2x.png in Resources */,
 				9BBC26771B55E89500CA10FD /* History.mp4 in Resources */,
 				9B445FED1C8FBB6F00085567 /* natureHouse.png in Resources */,
 				9B44610B1C910DB900085567 /* pin7.png in Resources */,
@@ -3364,6 +3421,7 @@
 				9BCB61361A57960200119235 /* critter2@2x.png in Resources */,
 				9B4460C61C9103EE00085567 /* post5map.png in Resources */,
 				9BCB60FE1A57838E00119235 /* nature6.png in Resources */,
+				0CC039B41CB446F800DFC849 /* raptor enclosure.png in Resources */,
 				9B4461041C910DB900085567 /* pinH@2x.png in Resources */,
 				9B44603E1C90F26600085567 /* BKTPopin2ControllerViewController_map2.xib in Resources */,
 				9BFF746F1A572B4900DAAF02 /* TestPanel5.xib in Resources */,
@@ -3424,6 +3482,7 @@
 				0C1726041A0E77FA00D55FF6 /* UIImage+ImageEffects.m in Sources */,
 				134BAB0619ED104B0063976B /* PhotoViewController.m in Sources */,
 				9B57AF991A66038A006B281D /* BKTPopin2ControllerViewController_trail3.m in Sources */,
+				0CC039C41CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.m in Sources */,
 				9B4460331C8FCAD600085567 /* BKTPopin2ControllerViewController_map1.m in Sources */,
 				130C362519AF86360009EEA7 /* ViewController.m in Sources */,
 				9BCB611B1A57847F00119235 /* BKTPopin2ControllerViewController_nature7.m in Sources */,
@@ -3461,6 +3520,7 @@
 				0CC45E9F1A0DCFCB00CD4618 /* MYBlurIntroductionView.m in Sources */,
 				9B4461321C94E30C00085567 /* HuntViewController.m in Sources */,
 				9BCB617A1A57B28700119235 /* MBXRasterTileOverlay.m in Sources */,
+				0CC039BB1CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.m in Sources */,
 				9B4460AC1C90F68100085567 /* BKTPopin2ControllerViewController_map14.m in Sources */,
 				13B3DFFC19FF7AB00005557F /* NSString+HTML.m in Sources */,
 				9BCB61591A579B5800119235 /* BKTPopin2ControllerViewController_unlock1.m in Sources */,
