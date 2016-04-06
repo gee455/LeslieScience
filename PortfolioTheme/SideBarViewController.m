@@ -155,15 +155,10 @@
     else if(row == 4)
     {
         UIStoryboard *storyboard = self.storyboard;
-        ProductsViewController *svc = [storyboard instantiateViewControllerWithIdentifier:@"blog"];
-        newFrontController = svc;
-    }
-    else if(row == 5)
-    {
-        UIStoryboard *storyboard = self.storyboard;
         ProductsViewController *svc = [storyboard instantiateViewControllerWithIdentifier:@"ScavengerChoose"];
         newFrontController = svc;
     }
+
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:newFrontController];
     [revealController pushFrontViewController:navigationController animated:YES];
