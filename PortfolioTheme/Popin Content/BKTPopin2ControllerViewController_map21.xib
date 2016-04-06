@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BKTPopin2ControllerViewController_map1">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BKTPopin2ControllerViewController_map21">
             <connections>
                 <outlet property="view" destination="1" id="zro-kW-Tfk"/>
             </connections>
@@ -22,10 +22,6 @@
                     <color key="textColor" red="0.068021941535296851" green="0.86917130235602091" blue="0.010540416930285734" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smell.png" id="cyT-6d-IQ8">
-                    <rect key="frame" x="39" y="113" width="622" height="379"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AfA-Sj-Tnn">
                     <rect key="frame" x="600" y="13" width="100" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -38,18 +34,18 @@
                         <action selector="closeButtonPressed:" destination="-2" eventType="touchUpInside" id="khB-Iu-3OM"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sensory Trail: Smell" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Lt-XN-IoJ">
-                    <rect key="frame" x="39" y="57" width="217" height="48"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Post 9" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Lt-XN-IoJ">
+                    <rect key="frame" x="39" y="57" width="229" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kWe-4I-Dg8">
-                    <rect key="frame" x="47" y="471" width="607" height="236"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You’ve completed your hike. Come again and choose another route or use the menu to access seasonal scavenger hunts." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kWe-4I-Dg8">
+                    <rect key="frame" x="47" y="159" width="607" height="236"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <mutableString key="text">Many animals rely on their sense of smell to find food, sense for danger and find their way home. At this station imagine you are a baby skunk looking for your home. Use your nose to smell through the holes of each box. Can you find which one smells like it would be home for a skunk? Can you imagine having to find your home with your sense of smell? What would it smell like? When you are done using your nose, continue following the trail back to the Sensory Trail sign. Then look for Post 13 to find your way out of the woods. </mutableString>
-                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </label>
             </subviews>
@@ -58,7 +54,4 @@
             <point key="canvasLocation" x="140" y="18"/>
         </view>
     </objects>
-    <resources>
-        <image name="smell.png" width="936" height="624"/>
-    </resources>
 </document>

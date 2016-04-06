@@ -2,20 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>5</key>
+	<key>4</key>
 	<dict>
 		<key>Image</key>
 		<string>search1.png</string>
 		<key>Name</key>
 		<string>Scavenger
 Hunt</string>
-	</dict>
-	<key>4</key>
-	<dict>
-		<key>Image</key>
-		<string>eventsNew.png</string>
-		<key>Name</key>
-		<string>Events</string>
 	</dict>
 	<key>0</key>
 	<dict>

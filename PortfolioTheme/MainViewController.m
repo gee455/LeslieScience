@@ -51,6 +51,7 @@
 #import "BKTPopin2ControllerViewController_map18.h"
 #import "BKTPopin2ControllerViewController_map19.h"
 #import "BKTPopin2ControllerViewController_map20.h"
+#import "BKTPopin2ControllerViewController_map21.h"
 
 
 #import <QuartzCore/QuartzCore.h>
@@ -202,6 +203,8 @@
     button18.tag = 30;
     [self.imageView addSubview: button18];
     
+   
+    
     
     //Pin #2 Critter House (C)
 //    UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -350,6 +353,14 @@
     button17.tag = 19;
     [self.imageView addSubview: button17];
     
+    //Pin #1 Leslie Center (L)
+    UIButton *button19 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button19 setBackgroundImage:[UIImage imageNamed:@"pinR"] forState:UIControlStateNormal];
+    button19.frame = CGRectMake(410.0, 410.0, 30.0, 55.0);
+    [button19 addTarget:self action:@selector(buttonPopin:)forControlEvents:UIControlEventTouchUpInside];
+    button19.tag = 31;
+    [self.imageView addSubview: button19];
+    
   
     
   
@@ -423,10 +434,10 @@
     
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
     
+    //Only run intro once code
+    BOOL downloaded = [[NSUserDefaults standardUserDefaults] boolForKey: @"downloaded"];
+    if (!downloaded) {
     
-    //BOOL downloaded = [[NSUserDefaults standardUserDefaults] boolForKey: @"downloaded"];
-    //if (!downloaded) {
-        //download code here
         
         //Create Stock Panel with header
         //UIView *headerView = [[NSBundle mainBundle] loadNibNamed:@"TestHeader" owner:nil options:nil][0];
@@ -464,9 +475,12 @@
     
          self.title = @"Leslie Science & Nature Center";
     
-    //[[NSUserDefaults standardUserDefaults] setBool:YES forKey: @"downloaded"];
-    //}
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey: @"downloaded"];
+    }
+
+    self.navigationController.navigationBar.hidden = NO;
     
+    self.title = @"Leslie Science & Nature Center";
     
     
 }
@@ -666,6 +680,44 @@
         NSLog(@"C button pressed !");
         // deal with downButton event here ..
         BKTPopin2ControllerViewController_map19 *popinA = [[BKTPopin2ControllerViewController_map19 alloc] init];
+        
+        //Disable auto dismiss and removed semi-transparent background
+        [popinA setPopinOptions:BKTPopinDisableAutoDismiss|BKTPopinDimmingViewStyleNone];
+        [popinA setPopinOptions:BKTPopinDisableParallaxEffect];
+        
+        //Configure transition direction
+        [popinA setPopinTransitionDirection:BKTPopinTransitionDirectionTop];
+        [self presentPopinController:popinA animated:YES completion:^{
+            NSLog(@"Popin C presented !");
+        }];
+        
+    }
+    
+    //Raptor Enclosure
+    if (tid == 31) {
+        
+        NSLog(@"C button pressed !");
+        // deal with downButton event here ..
+        BKTPopin2ControllerViewController_map19 *popinA = [[BKTPopin2ControllerViewController_map20 alloc] init];
+        
+        //Disable auto dismiss and removed semi-transparent background
+        [popinA setPopinOptions:BKTPopinDisableAutoDismiss|BKTPopinDimmingViewStyleNone];
+        [popinA setPopinOptions:BKTPopinDisableParallaxEffect];
+        
+        //Configure transition direction
+        [popinA setPopinTransitionDirection:BKTPopinTransitionDirectionTop];
+        [self presentPopinController:popinA animated:YES completion:^{
+            NSLog(@"Popin C presented !");
+        }];
+        
+    }
+    
+    //Post 9
+    if (tid == 20) {
+        
+        NSLog(@"C button pressed !");
+        // deal with downButton event here ..
+        BKTPopin2ControllerViewController_map19 *popinA = [[BKTPopin2ControllerViewController_map21 alloc] init];
         
         //Disable auto dismiss and removed semi-transparent background
         [popinA setPopinOptions:BKTPopinDisableAutoDismiss|BKTPopinDimmingViewStyleNone];

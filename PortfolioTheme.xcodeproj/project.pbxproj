@@ -20,6 +20,11 @@
 		0C700E261A0EFD2E00526D7F /* crossHair.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C700E251A0EFD2E00526D7F /* crossHair.png */; };
 		0C700E281A0EFF7500526D7F /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C700E271A0EFF7500526D7F /* search.png */; };
 		0C700E2A1A0F03AC00526D7F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C700E291A0F03AC00526D7F /* map.png */; };
+		0C9EDEB11CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9EDEAF1CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.m */; };
+		0C9EDEB21CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EDEB01CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.xib */; };
+		0C9EDEB41CB4AB38005E6C8C /* MediaLaunch.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EDEB31CB4AB38005E6C8C /* MediaLaunch.xcassets */; };
+		0C9EDEB71CB4AB75005E6C8C /* featuresNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EDEB51CB4AB74005E6C8C /* featuresNew.png */; };
+		0C9EDEB81CB4AB75005E6C8C /* featuresNew@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9EDEB61CB4AB74005E6C8C /* featuresNew@2x.png */; };
 		0CC039B41CB446F800DFC849 /* raptor enclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039B01CB446F800DFC849 /* raptor enclosure.png */; };
 		0CC039B51CB446F800DFC849 /* raptor enclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039B11CB446F800DFC849 /* raptor enclosure@2x.png */; };
 		0CC039B61CB446F800DFC849 /* naturehouseNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC039B21CB446F800DFC849 /* naturehouseNew.png */; };
@@ -672,6 +677,12 @@
 		0C700E251A0EFD2E00526D7F /* crossHair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crossHair.png; sourceTree = "<group>"; };
 		0C700E271A0EFF7500526D7F /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		0C700E291A0F03AC00526D7F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		0C9EDEAE1CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BKTPopin2ControllerViewController_map21.h; path = "Popin Content/BKTPopin2ControllerViewController_map21.h"; sourceTree = "<group>"; };
+		0C9EDEAF1CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BKTPopin2ControllerViewController_map21.m; path = "Popin Content/BKTPopin2ControllerViewController_map21.m"; sourceTree = "<group>"; };
+		0C9EDEB01CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BKTPopin2ControllerViewController_map21.xib; path = "Popin Content/BKTPopin2ControllerViewController_map21.xib"; sourceTree = "<group>"; };
+		0C9EDEB31CB4AB38005E6C8C /* MediaLaunch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MediaLaunch.xcassets; sourceTree = "<group>"; };
+		0C9EDEB51CB4AB74005E6C8C /* featuresNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = featuresNew.png; sourceTree = "<group>"; };
+		0C9EDEB61CB4AB74005E6C8C /* featuresNew@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "featuresNew@2x.png"; sourceTree = "<group>"; };
 		0CC039B01CB446F800DFC849 /* raptor enclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raptor enclosure.png"; sourceTree = "<group>"; };
 		0CC039B11CB446F800DFC849 /* raptor enclosure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raptor enclosure@2x.png"; sourceTree = "<group>"; };
 		0CC039B21CB446F800DFC849 /* naturehouseNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naturehouseNew.png; sourceTree = "<group>"; };
@@ -1729,6 +1740,7 @@
 		130C35FF19AF86360009EEA7 = {
 			isa = PBXGroup;
 			children = (
+				0C9EDEB31CB4AB38005E6C8C /* MediaLaunch.xcassets */,
 				130C361119AF86360009EEA7 /* PortfolioTheme */,
 				130C363319AF86360009EEA7 /* PortfolioThemeTests */,
 				9BCB61921A58A77700119235 /* Mapbox */,
@@ -1806,6 +1818,8 @@
 				9B4460211C8FBD2A00085567 /* Main_iPad.storyboard */,
 				9B4460231C8FBD5500085567 /* MainViewController.h */,
 				9B4460261C8FBE0F00085567 /* MainViewController.m */,
+				0C9EDEB51CB4AB74005E6C8C /* featuresNew.png */,
+				0C9EDEB61CB4AB74005E6C8C /* featuresNew@2x.png */,
 				9B4460031C8FBBFD00085567 /* photo1.png */,
 				130C362319AF86360009EEA7 /* ViewController.h */,
 				130C362419AF86360009EEA7 /* ViewController.m */,
@@ -2751,6 +2765,9 @@
 				0CC039C11CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.h */,
 				0CC039C21CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.m */,
 				0CC039C31CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.xib */,
+				0C9EDEAE1CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.h */,
+				0C9EDEAF1CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.m */,
+				0C9EDEB01CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.xib */,
 				9BA8E5BC1A6875E00015152B /* BKTPopin2ControllerViewController_feature1.h */,
 				9BA8E5BD1A6875E00015152B /* BKTPopin2ControllerViewController_feature1.m */,
 				9BA8E5BE1A6875E00015152B /* BKTPopin2ControllerViewController_feature1.xib */,
@@ -3018,6 +3035,7 @@
 				9B4461CA1C9633EF00085567 /* eventsNew.png in Resources */,
 				134B26D519C862CD0056D4F1 /* Pinterest.png in Resources */,
 				9B4BCB6C1A596C5900B61094 /* QRowl.png in Resources */,
+				0C9EDEB81CB4AB75005E6C8C /* featuresNew@2x.png in Resources */,
 				0CC039BF1CB447EE00DFC849 /* natureHouseBig.png in Resources */,
 				9B4461181C910DB900085567 /* pinC@2x.png in Resources */,
 				13E40F9C19E3E43300B95175 /* icon_100x100.png in Resources */,
@@ -3062,6 +3080,7 @@
 				9B4BCB691A596C5900B61094 /* QReagle@2x.png in Resources */,
 				0CC039C51CB4487700DFC849 /* BKTPopin2ControllerViewController_map20.xib in Resources */,
 				134B26DB19C867710056D4F1 /* testet2.png in Resources */,
+				0C9EDEB71CB4AB75005E6C8C /* featuresNew.png in Resources */,
 				0CC039BC1CB4473400DFC849 /* BKTPopin2ControllerViewController_map19.xib in Resources */,
 				9BCB60F61A57838E00119235 /* nature2.png in Resources */,
 				9B4460C21C9103EE00085567 /* post8map.png in Resources */,
@@ -3138,6 +3157,7 @@
 				0CC45ED31A0DD38600CD4618 /* TestPanel3.xib in Resources */,
 				13E40FAC19E3E43300B95175 /* icon_80x80.png in Resources */,
 				134B26CA19C854900056D4F1 /* backTest.jpg in Resources */,
+				0C9EDEB21CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.xib in Resources */,
 				9B57AFEB1A684099006B281D /* woodfrog.wav in Resources */,
 				1326395B19B5BFF8009159B7 /* vg_mute_on.png in Resources */,
 				9BCB60E21A57809600119235 /* nature1@2x.png in Resources */,
@@ -3402,6 +3422,7 @@
 				9BA8E5EA1A68B6520015152B /* feature4.png in Resources */,
 				132638DF19B59295009159B7 /* back.jpg in Resources */,
 				9B4461121C910DB900085567 /* pinL@2x.png in Resources */,
+				0C9EDEB41CB4AB38005E6C8C /* MediaLaunch.xcassets in Resources */,
 				9B445FE91C8FBB6F00085567 /* featuresNew.png in Resources */,
 				9B5218E11BBB60A500A1D03B /* QRanswer4.png in Resources */,
 				13DE96B419FFC7D2007D67AC /* Email.png in Resources */,
@@ -3584,6 +3605,7 @@
 				134B269A19C821BA0056D4F1 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				131AF77C19B58BFC00379D26 /* CollectionViewController.m in Sources */,
 				9B4460A81C90F68100085567 /* BKTPopin2ControllerViewController_map12.m in Sources */,
+				0C9EDEB11CB49F70005E6C8C /* BKTPopin2ControllerViewController_map21.m in Sources */,
 				9B4460A21C90F68100085567 /* BKTPopin2ControllerViewController_map9.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
