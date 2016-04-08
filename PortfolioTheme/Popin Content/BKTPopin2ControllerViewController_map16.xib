@@ -48,8 +48,9 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kWe-4I-Dg8">
                     <rect key="frame" x="60" y="472" width="607" height="236"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <mutableString key="text">Animals that do not have keen eyesight may rely on their sense of touch to find food. An example of this is the star-nosed mole (Condylurea cristata) that spends most of its life in darkness underground. Put your hand on the rope and close your eyes. Imagine you are a star-nosed mole going down into one of your underground tunnels looking for food. Slowing walk along the trail with your eyes shut. How does the ground feel underneath you? Did you feel anything along the rope as you walked? As you travel to the next station notice the different textures of leaves, bark and flowers. </mutableString>
+                    <string key="text">Animals that do not have keen eyesight may rely on their sense of touch to find food. An example of this is the star-nosed mole (Condylurea cristata) that spends most of its life in darkness underground. Put your hand on the rope and close your eyes. Imagine you are a star-nosed mole going down into one of your underground tunnels looking for food. Slowing walk along the trail with your eyes shut. How does the ground feel underneath you? Did you feel anything along the rope as you walked? As you travel to the next station notice the different textures of leaves, bark and flowers. </string>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </label>
             </subviews>

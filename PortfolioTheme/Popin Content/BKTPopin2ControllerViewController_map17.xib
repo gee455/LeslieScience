@@ -48,8 +48,10 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kWe-4I-Dg8">
                     <rect key="frame" x="47" y="471" width="607" height="236"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <mutableString key="text">Many animals rely on their sense of smell to find food, sense for danger and find their way home. At this station imagine you are a baby skunk looking for your home. Use your nose to smell through the holes of each box. Can you find which one smells like it would be home for a skunk? Can you imagine having to find your home with your sense of smell? What would it smell like? When you are done using your nose, continue following the trail back to the Sensory Trail sign. Then look for Post 13 to find your way out of the woods. </mutableString>
+                    <string key="text">Many animals rely on their sense of smell to find food, sense for danger and find their way home. At this station imagine you are a baby skunk looking for your home. Use your nose to smell through the holes of each box. Can you find which one smells like it would be home for a skunk? Can you imagine having to find your home with your sense of smell? What would it smell like? When you are done using your nose, continue following the trail back to the Sensory Trail sign. Then look for Post 13 to find your way out of the woods. 
+</string>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </label>
             </subviews>
